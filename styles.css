@@ -1,0 +1,74 @@
+html[dir] ._1FKgS::after {
+    background-color: #bebebe !important;
+}
+
+.m6ZEb{
+    /* visibility: hidden; */
+    height: 0px;
+}
+.OUeyt{
+    /* bubble */
+    background-color: #bebebe !important;
+}
+ .dIyEr{
+    /* profile/group */
+    visibility: hidden;
+    width:0px;
+}
+
+div[title="Status"]{
+    visibility: hidden;
+}
+
+span[data-icon="msg-dblcheck-ack"]{
+    visibility: hidden;
+    /* message double tick */
+}
+span[data-icon="msg-check"]{
+    visibility: hidden;
+    /* message single tick */
+}
+span[data-icon="status-dblcheck-ack"]{
+    visibility: hidden;
+    /* chat blue tick */
+}
+
+._18tv-{
+    visibility: hidden;
+}
+._1FroB{
+    /* header for new chat */
+    background-color:#bebebe !important;
+}
+
+.message-out{
+    background-color:#e0dfdf !important;
+}
+
+div[title="Message info"]{
+    /* no need to know if it got delivered and all */
+    visibility: hidden;
+    height: 0px;
+}
+._1i1U7{
+background-color: #e0dfdf!important;
+/* drop down color */
+}
+
+._1qi0v{
+    /* Logout button color */
+    color:white !important;
+    background-color:#bebebe!important;
+
+}
+
+.PNlAR{
+    /* color for retry now */
+background-color: white !important;
+color:#bebebe !important;
+}
+
+.tail-container{
+ visibility: hidden;
+ /* can't change color of the small thing so hiding it */
+}

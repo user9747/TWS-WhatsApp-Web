@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "TWS on WhatsApp",
+  "version": "0.1",
+
+  "description": "Redesigns WhatsApp Web according to Humane Tech Design principles from humanetech.org",
+  
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.whatsapp.com/*", "http://web.whatsapp.com/*"
+      ],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
