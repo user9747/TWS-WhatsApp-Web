@@ -24,11 +24,23 @@
 })();
 (function(){
     setTimeout(function(){
-        var profiles = document.querySelectorAll(".dIyEr");
+        var dialogue = document.querySelectorAll(".iHhHL");
         var i;
-        for (i = 0; i < profiles.length; i++) {
-            profiles[i].style.visibility = "hidden";
+        for (i = 0; i < dialogue.length; i++) {
+            dialogue[i].innerHTML = "To disconnect is to live ";
         }
         console.log("yes2");
     },5000);
 })();
+(function(){
+    setTimeout(function(){
+        var dialogue = document.querySelectorAll("._1lrYJ");
+        var i;
+        for (i = 0; i < dialogue.length; i++) {
+            dialogue[i].innerHTML = "WhatsApp is addictive. <a href=\"https://humanetech.com/problem/\" target=\"_blank\">Learn more here</a>.";
+        }
+        console.log("yes2");
+    },5000);
+})();
+
+

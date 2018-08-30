@@ -96,6 +96,9 @@ span[title="typing…"]{
     /* //dropdown opacity */
     background:#e0dfdf !important; 
 }
+div.jZ4tp._1i1U7{
+  background: transparent !important;
+}
 
 progress {
     color: lightblue !important;
@@ -107,5 +110,10 @@ progress {
   
   progress::-webkit-progress-value {
     background: #bebebe !important;
+  }
+
+  ._2Uo0Z{
+      filter:grayscale(100%);
+      /* grayscales whatsapp landing */
   }
   
