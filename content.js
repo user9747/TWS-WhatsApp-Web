@@ -5,12 +5,21 @@
 // select the target node
 var target = document.querySelector('title');
 var link = document.querySelector("link[rel='shortcut icon']") || document.createElement('link');
+
 // create an observer instance
 var observer = new MutationObserver(function(mutations) {
     // We need only first event and only new value of the title
     console.log("yes3");
     console.log(mutations[0].target.nodeValue);
     mutations[0].target.textContent="WhatsApp";
+    var landingDiv = document.querySelector("div[class='_2MnNk'");
+    if(landingDiv!=null){
+        console.log("NOT NULL!");
+        console.log(landingDiv.innerHTML);
+        landingDiv.childNodes[0].innerHTML = "To disconnect is to live ";
+        landingDiv.childNodes[1].innerHTML="WhatsApp is addictive. <a href=\"https://humanetech.com/problem/\" target=\"_blank\">Learn more here</a>."
+    }
+
     
 });
 
@@ -27,6 +36,7 @@ var linkObserver = new MutationObserver(function(mutations) {
     ;
     
 });
+
 
 
 
@@ -59,25 +69,25 @@ linkObserver.observe(link,{attributes: true,childList:true});
         // cosnole.log("yes2");
     },10000);
 })();
-(function(){
-    setTimeout(function(){
-        var dialogue = document.querySelectorAll(".iHhHL");
-        var i;
-        for (i = 0; i < dialogue.length; i++) {
-            dialogue[i].innerHTML = "To disconnect is to live ";
-        }
-        console.log("yes2");
-    },5000);
-})();
-(function(){
-    setTimeout(function(){
-        var dialogue = document.querySelectorAll("._1lrYJ");
-        var i;
-        for (i = 0; i < dialogue.length; i++) {
-            dialogue[i].innerHTML = "WhatsApp is addictive. <a href=\"https://humanetech.com/problem/\" target=\"_blank\">Learn more here</a>.";
-        }
-        console.log("yes2");
-    },10000);
-})();
+// (function(){
+//     setTimeout(function(){
+//         var dialogue = document.querySelectorAll(".iHhHL");
+//         var i;
+//         for (i = 0; i < dialogue.length; i++) {
+//             dialogue[i].innerHTML = "To disconnect is to live ";
+//         }
+//         console.log("yes2");
+//     },5000);
+// })();
+// (function(){
+//     setTimeout(function(){
+//         var dialogue = document.querySelectorAll("._1lrYJ");
+//         var i;
+//         for (i = 0; i < dialogue.length; i++) {
+//             dialogue[i].innerHTML = "WhatsApp is addictive. <a href=\"https://humanetech.com/problem/\" target=\"_blank\">Learn more here</a>.";
+//         }
+//         console.log("yes2");
+//     },10000);
+// })();
 
 
