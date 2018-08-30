@@ -33,6 +33,10 @@ span[data-icon="status-dblcheck-ack"]{
     /* chat blue tick */
 }
 
+span[data-icon="msg-dblcheck"]{
+    visibility: hidden;
+}
+
 ._18tv-{
     visibility: hidden;
 }
@@ -49,6 +53,7 @@ div[title="Message info"]{
     /* no need to know if it got delivered and all */
     visibility: hidden;
     height: 0px;
+    padding-top:0px;
 }
 ._1i1U7{
 background-color: #e0dfdf!important;
@@ -72,3 +77,35 @@ color:#bebebe !important;
  visibility: hidden;
  /* can't change color of the small thing so hiding it */
 }
+
+._3qlW9:after{
+/* landing border bottom */
+border-color:#bebebe !important;
+}
+
+._1WliW{
+    /* profile pic while playback video */
+    /* visibility: hidden; */
+    /* BUG! hides even the main profile pic :/ */
+}
+span[title="typing…"]{
+    color:#bebebe !important;
+}
+
+._2DNgV{
+    /* //dropdown opacity */
+    background:#e0dfdf !important; 
+}
+
+progress {
+    color: lightblue !important;
+  }
+  
+  progress::-moz-progress-bar {
+    background: lightblue !important;
+  }
+  
+  progress::-webkit-progress-value {
+    background: #bebebe !important;
+  }
+  
