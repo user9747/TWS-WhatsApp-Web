@@ -33,6 +33,15 @@ span[data-icon="status-dblcheck-ack"]{
     /* chat blue tick */
 }
 
+span[data-icon="status-dblcheck"]{
+    visibility: hidden;
+    /* message double tick grey */
+}
+span[data-icon="status-check"]{
+    visibility: hidden;
+}
+
+
 span[data-icon="msg-dblcheck"]{
     visibility: hidden;
 }
@@ -53,7 +62,7 @@ div[title="Message info"]{
     /* no need to know if it got delivered and all */
     visibility: hidden;
     height: 0px;
-    padding-top:0px;
+    padding-top:0px !important;
 }
 ._1i1U7{
 background-color: #e0dfdf!important;

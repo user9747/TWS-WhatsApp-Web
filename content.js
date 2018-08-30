@@ -20,7 +20,7 @@
             bubbles[i].style.backgroundColor = "#bebebe";
         }
         cosnole.log("yes2");
-    },5000);
+    },10000);
 })();
 (function(){
     setTimeout(function(){
@@ -40,7 +40,7 @@
             dialogue[i].innerHTML = "WhatsApp is addictive. <a href=\"https://humanetech.com/problem/\" target=\"_blank\">Learn more here</a>.";
         }
         console.log("yes2");
-    },5000);
+    },10000);
 })();
 
 
